@@ -6,6 +6,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Extending the adopted spec, each change should have a link to its corresponding pull request appended.
 
+## [29.0.0](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/compare/v28.0.0...v29.0.0) (2023-10-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* enabling vulnerability and audit modes for workloads ([#1749](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1749))
+* support for enabling image streaming at cluster level ([#1696](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1696))
+* make promethus configurable ([#1715](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1715))
+* Add support for additional pod secondary ranges at the cluster level ([#1738](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1738))
+
+### Features
+
+* Add support for additional pod secondary ranges at the cluster level ([#1738](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1738)) ([cebc213](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/cebc2134f2a23131207f9fb915eca8522da8389c))
+* enabling vulnerability and audit modes for workloads ([#1749](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1749)) ([7bfd6fe](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/7bfd6fe0db9205e384b652daf0bc3986ff2372e9))
+* make promethus configurable ([#1715](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1715)) ([ae26016](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/ae26016a913077295c88551888e5f5cec970f7a9))
+* support for enabling image streaming at cluster level ([#1696](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1696)) ([dbb57a2](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/dbb57a2e7a5fe91c8b56c48f2a29bdbb881c4db0))
+
+
+### Bug Fixes
+
+* **acm:** Allow to enable config_sync or policy_controller standalone ([#1752](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1752)) ([abdba8c](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/abdba8cfd1e52ca56767116838a7db58f96b5f4d))
+* lint updates for dev-tools v1.16 ([#1742](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1742)) ([e09ff11](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/e09ff11e74dedee1d7be702abb6c249c94fadad3))
+
 ## [28.0.0](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/compare/v27.0.0...v28.0.0) (2023-09-20)
 
 
